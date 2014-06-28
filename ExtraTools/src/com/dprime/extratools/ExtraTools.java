@@ -23,7 +23,9 @@ public class ExtraTools {
    	LanguageRegistry.addName(LapisLazuliAxe, "LapisLazuli Axe");
    	LanguageRegistry.addName(LapisLazuliHoe, "LapisLazuli Hoe");
    	
-    
+    	GameRegistry.addRecipe(new ItemStack(LapisLazuliPickaxe, 1), new Object []{
+    		"***", "XYX", " Y ", 'Y', Item.stick, 'X', Item.LapisLazuli, '*', Item.IronIngot
+    	});
     
     
     
