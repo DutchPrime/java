@@ -15,6 +15,22 @@ public class ExtraTools {
 	
 	//ENUMTOOLMATERIAL
 	public static EnumToolMaterial toolLapisLazuli = EnumHelper.addToolMaterial("LAPISLAZULI", 3, 1461, 11.0F, 3.0F, 30);
+	
+    
+   	LanguageRegistry.addName(LapisLazuliPickaxe, "LapisLazuli Pickaxe");
+   	LanguageRegistry.addName(LapisLazuliShovel, "LapisLazuli Shovel");
+   	LanguageRegistry.addName(LapisLazuliSword, "LapisLazuli Sword");
+   	LanguageRegistry.addName(LapisLazuliAxe, "LapisLazuli Axe");
+   	LanguageRegistry.addName(LapisLazuliHoe, "LapisLazuli Hoe");
+   	
+    
+    
+    
+    
+    
+    
+    
+    
     
     @EventHandler
     public void init(FMLInitializationEvent event)
